@@ -2,21 +2,21 @@ import heapq
 from copy import deepcopy
 import time
 
-# Define the initial state
+# Defining the initial state
 initial_state = [
     ['B', ' ', 'B'],
     [' ', ' ', ' '],
     ['W', ' ', 'W']
 ]
 
-# Define the goal state
+# Defining the goal state
 goal_state = [
     ['W', ' ', 'W'],
     [' ', ' ', ' '],
     ['B', ' ', 'B']
 ]
 
-# Define the knight moves
+# Defining the knight moves
 knight_moves = [(2, 1), (1, 2), (-1, 2), (-2, 1), (-2, -1), (-1, -2), (1, -2), (2, -1)]
 
 def is_valid(x, y):
