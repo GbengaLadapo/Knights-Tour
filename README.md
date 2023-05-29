@@ -10,7 +10,7 @@ The Four Knights Puzzle is a problem played on a 3x3 chess board. The initial st
 
 Two search algorithms have been implemented to solve this problem:
 
-- **A* Search Algorithm**: This algorithm uses a heuristic function, specifically the sum of the Manhattan distances from each knight to its goal position, to guide the search towards the goal.
+- **A*Search Algorithm**: This algorithm uses a heuristic function, specifically the sum of the Manhattan distances from each knight to its goal position, to guide the search towards the goal.
 
 - **Branch & Bound Algorithm**: This algorithm is a straightforward exhaustive search that does not use a heuristic to guide its search. Instead, it explores all possible states until it finds the goal.
 
