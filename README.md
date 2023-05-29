@@ -16,6 +16,13 @@ Two search algorithms have been implemented to solve this problem:
 
 ## Usage
 
-To run the program, use a Python 3 interpreter:
+To run the program, use a Python 3 interpreter
+
+## Results
+The program prints out the minimum number of moves required to solve the puzzle, the number of nodes expanded during the search, and the time taken for each of the A* and Branch & Bound algorithms.
+
+
+
+
 
 
