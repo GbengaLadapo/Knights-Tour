@@ -4,7 +4,7 @@ This repository contains a Python implementation of the A* search and Branch & B
 
 ## Problem Description
 
-The Four Knights Puzzle is a problem played on a 3x3 chess board. The initial state has two white knights at the bottom and two black knights at the top. The goal of the puzzle is to switch the positions of the knights. Knights move following the standard chess rules.
+The Four Knights Puzzle is a problem played on a 3x3 chess board. The initial state has two white knights at the bottom and two black knights at the top. The goal of the puzzle is to have the opposing knights switch sides. Knights move following the standard chess rules(two squares ahead in any direction, then one square left or right).
 
 ## Algorithms
 
